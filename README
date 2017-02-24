@@ -1,5 +1,16 @@
-Style Transfer for Headshot Portraits
+We used MIT Style Transfer code as a base for this project. The link to the paper is given below:
 
+https://people.csail.mit.edu/yichangshih/portrait_web/
+
+We wrote Python scripts for cropping the images, creating face masks, detecting facial landmarks and contours using dlib, openCV
+and Stasm Face Detection Library. 
+
+We modified the MIT Style Transfer code using concepts in another paper (link given below):
+https://www.comp.nus.edu.sg/~tsim/documents/face_makeup_cvpr09_lowres.pdf
+
+The license for MIT Style Transfer is given below:
+
+Style Transfer for Headshot Portraits
 
 1. Go to libs/ and follow the instructions to install SIFT-flow
    Instructions: http://people.csail.mit.edu/celiu/ECCV2008/
